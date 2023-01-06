@@ -1,0 +1,112 @@
+/* Universal part start */
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Play&family=Raleway&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+a{
+    text-decoration: none;
+}
+.col-xxl-12,
+.col-xxl-2,
+.col-xxl-10{
+    padding: 0;
+}
+/* Universal part end */
+
+/* Header part start */
+header{
+    width: 100%;
+    background-color: rgb(71, 142, 228);
+}
+.header_main h2{
+    padding: 10px 0;
+    margin: 0;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+.side_image span{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: green;
+}
+/* Header part end */
+
+/* Side bar part start */
+.side_bar{
+    height: 100vh;
+    background-color: beige;
+}
+.side_content{
+    text-align: center;
+    width: 100%;
+    height: 300px;
+}
+.side_content img{
+    margin: 40px 0 20px 0;
+}
+.side_content h4{
+    margin: 0;
+    font-family: 'PT Serif', serif;
+}
+.side_content p{
+    font-family: 'Play', sans-serif;
+}
+.online_icon{
+    height: 12px;
+    width: 12px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+}
+.side_content h5{
+    font-family: 'Raleway', sans-serif;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 8px;
+    margin-bottom: 0;
+}
+.navigate_manu{
+    text-align: left;
+}
+.navigate_manu a{
+    display: block;
+    color: black;
+    border-top: 1px solid black;
+    padding: 5px;
+    padding-left: 30px;
+    font-size: 18px;
+}
+.navigate_manu a:first-child{
+    border-top: none;
+}
+.navigate_manu a:last-child{
+    border-bottom: 1px solid black;
+}
+/* Side bar part end */
+
+/* Status bar part start */
+.status_bar p{
+    padding: 7px 20px;
+    background-color: rgba(59, 57, 57, 0.044);
+    color: rgba(126, 170, 224, 0.915);
+}
+/* Status bar part end */
+
+/* 2nd Side bar part start */
+/* 2nd Side bar part end */
+
+/* Footer part start */
+footer{
+    padding: 15px 0;
+    background-color: rgb(59, 57, 57);
+}
+.foot_main p{
+    margin: 0;
+    color: white;
+    font-family: 'Play', sans-serif;
+}
+/* Footer part end */
