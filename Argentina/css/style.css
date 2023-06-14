@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+:root{
+    --color: white;
+    --bc-color: black;
+    --align: center;
+    --height: 400px;
+    --width: 400px;
+    --mt: 100px;
+    --padding: 40px;
+    --display: flex;
+    --align-item: center;
+    --justify: center;
+}
+.container{
+    text-align: var(--align);
+    display: var(--display);
+    justify-content: var(--justify);
+}
+h1{
+    color: var(--color);
+    background-color: var(--bc-color);
+    height: var(--height);
+    width: var(--width);
+    margin-top: var(--mt);
+    padding: var(--padding);
+    display: var(--display);
+    justify-content: var(--justify);
+    align-items: var(--align-item);
+}
+.main{
+    height: 70vh;
+    /* border: 1px solid salmon; */
+    margin-top: 80px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    background-color: green;
+    transition: all 1s;
+    visibility: hidden;
+}
+.main:hover .box{
+    /* transform: rotate(45deg); */
+    visibility: visible;
+    transform: scale(3.3);
+    border-radius: 50%;
+    background-color: red;
+    /* transform: skew(40deg); */
+    /* transform: translate(100px, 100px); */
+}
+body{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.argentina{
+    width: 700px;
+    border: 1px solid black;
+}
+.sky{
+    height: 120px;
+    width: 700px;
+    background-color: #6CACE4;
+}
+.sun{
+    height: 100px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image img{
+    height: 90px;
+}

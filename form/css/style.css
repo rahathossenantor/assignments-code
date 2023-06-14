@@ -1,0 +1,58 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    background-color: gray;
+}
+span{
+    color: red;
+}
+#form_main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    height: 700px;
+    width: 357px;
+    background-color: rgb(241, 254, 250);
+    margin-top: 100px;
+    padding: 10px;
+}
+.container h2{
+    margin: 12px 0;
+    text-align: center;
+}
+form label{
+    font-size: 20px;
+}
+form input{
+    padding: 6px;
+    width: 340px;
+}
+#f_name_error{
+    color: red;
+}
+#l_name_error{
+    color: red;
+}
+#phone_error{
+    color: red;
+}
+#email_error{
+    color: red;
+}
+#uname_error{
+    color: red;
+}
+#pass_error{
+    color: red;
+}
+#con_pass_error{
+    color: red;
+}
+#send_btn{
+    width: 355px;
+}

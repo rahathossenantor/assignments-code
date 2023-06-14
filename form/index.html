@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <!-- css link st
+        <h2>Please registrer yourself</h2>art -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- css link end -->
+</head>
+<body>
+    <!-- form start -->
+    <section id="form_main">
+        <div class="container">
+            <form action="">
+                <h2>Registration form</h2>
+                <label for="fname">First Name: <span>*</span> </label>
+                <br/>
+                <input type="text" name="fname" placeholder="please input your first name here" id="fname">
+                <div id="f_name_error"></div>
+                <br/>
+                <label for="lname">Last Name: <span>*</span> </label>
+                <br/>
+                <input type="text" name="lname" placeholder="please input your last name here" id="lname">
+                <div id="l_name_error"></div>
+                <br/>
+                <label for="phone">Phone Number: <span>*</span> </label>
+                <br/>
+                <input type="number" name="phone" placeholder="please input your phone number here" id="phone">
+                <div id="phone_error"></div>
+                <br/>
+                <label for="email">E-mail: <span>*</span> </label>
+                <br/>
+                <input type="email" name="email" placeholder="please input your email address here" id="email">
+                <div id="email_error"></div>
+                <br/>
+                <label for="uname">Username: <span>*</span> </label>
+                <br/>
+                <input type="text" name="email" placeholder="please ceate a username here" id="uname">
+                <div id="uname_error"></div>
+                <br/>
+                <label for="pass">Password: <span>*</span> </label>
+                <br/>
+                <input type="password" name="pass" placeholder="please ceate a stong password" id="pass">
+                <div id="pass_error"></div>
+                <br/>
+                <label for="con_pass">Confirm Password: <span>*</span> </label>
+                <br/>
+                <input type="password" name="con_pass" placeholder="please confirm your password" id="con_pass">
+                <div id="con_pass_error"></div>
+                <br/>
+                <br/>
+                <div class="submit_btn">
+                    <input type="submit" id="send_btn" onclick="return validation();" value="Send">
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- form end -->
+    <!-- js link start -->
+    <script src="./js/script.js"></script>
+    <!-- js link end -->
+</body>
+</html>

@@ -1,0 +1,14 @@
+*{
+    margin: 00px;
+    padding: 00px;
+    outline: 00px;
+}
+#image{
+    background-image: url("img1.jpg");
+    height: 900px;
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; */
+    overflow-y: scroll;
+}

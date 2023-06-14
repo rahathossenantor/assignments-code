@@ -1,0 +1,342 @@
+#main {
+  height: 1215px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+/* Russian flag */
+#Russia {
+  height: 300px;
+  width: 30%;
+  background-color: rgb(255, 255, 255);
+  float: left;
+}
+#Russia01 {
+  height: 100px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+#Russia02 {
+  height: 100px;
+  width: 100%;
+  background-color: rgb(0, 51, 160);
+}
+#Russia03 {
+  height: 100px;
+  width: 100%;
+  background-color: rgb(218, 41, 28);
+  float: left;
+}
+/* Russian flag */
+/* Ukrainian flag */
+#Ukraine {
+  height: 300px;
+  width: 30%;
+  background-color: white;
+  float: left;
+  margin-left: 05px;
+}
+#Ukraine01 {
+  height: 150px;
+  width: 100%;
+  background-color: #FFD500;
+}
+#Ukraine02 {
+  height: 150px;
+  width: 100%;
+  background-color: #005BBB;
+}
+/* Ukrainian flag */
+/* Sweden */
+#Sweden{
+  height: 300px;
+  width: 30%;
+  float: left;
+  margin-left: 05px;
+  background-color: white;
+}
+#Sweden01{
+  height: 115px;
+  width: 100%;
+  float: left;
+  background-color: #004B87;
+}
+#Sweden02{
+  height: 70px;
+  width: 100%;
+  float: left;
+  background-color: #FFCD00;
+}
+#Sweden03{
+  height: 115px;
+  width: 100%;
+  float: left;
+  background-color: #004B87;
+}
+.Swe{
+  height: 115px;
+  width: 70px;
+  float: left;
+  background-color: #FFCD00;
+  margin-left: 137px;
+}
+/* Sweden */
+/* German flag */
+#Germany {
+  height: 300px;
+  width: 30%;
+  background-color: white;
+  margin-top: 05px;
+  float: left;
+}
+#Germany01 {
+  height: 100px;
+  width: 100%;
+  background-color: #000000;
+}
+#Germany02 {
+  height: 100px;
+  width: 100%;
+  background-color: #DD0000;
+}
+#Germany03 {
+  height: 100px;
+  width: 100%;
+  background-color: #FFCE00;
+}
+/* German flag */
+/* Finland */
+#Finland{
+  height: 300px;
+  width: 30%;
+  float: left;
+  background-color: white;
+  margin-top: 05px;
+  margin-left: 05px;
+}
+#Finland01{
+  height: 112px;
+  width: 100%;
+  float: left;
+  background-color: #FFFFFF;
+}
+#Finland02{
+  height: 76px;
+  width: 100%;
+  float: left;
+  background-color: #002F6C;
+}
+#Finland03{
+  height: 112px;
+  width: 100%;
+  float: left;
+  background-color: #FFFFFF;
+}
+.Fin{
+  height: 112px;
+  width: 76px;
+  float: left;
+  background-color: #002F6C;
+  margin-left: 137px;
+}
+/* Finland */
+/* Bangladesh flag */
+#Bangladesh {
+  height: 300px;
+  width: 30%;
+  background-color: rgb(0, 103, 71);
+  float: left;
+  margin-top: 05px;
+  margin-left: 05px;
+  display: flex;
+  align-items: center;
+}
+#red {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(218, 41, 28);
+  margin-left: 155px;
+  border-radius: 50%;
+}
+/* Bangladesh flag */
+/* Indian flag */
+#India {
+  height: 300px;
+  width: 30%;
+  background-color: white;
+  margin-top: 05px;
+  float: left;
+}
+#India01 {
+  height: 100px;
+  width: 100%;
+  background-color: rgb(255, 153, 51);
+}
+#India02 {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+#India03 {
+  height: 100px;
+  width: 100%;
+  background-color: rgb(19, 136, 8);
+}
+/* Indian flag */
+/* Cambodia */
+#Cambodia{
+  height: 300px;
+  width: 30%;
+  float: left;
+  background-color: white;
+  margin-top: 05px;
+  margin-left: 05px;
+}
+#Cambodia01{
+  height: 82px;
+  width: 100%;
+  float: left;
+  background-color: #032EA1;
+}
+#Cambodia02{
+  height: 136px;
+  width: 100%;
+  float: left;
+  background-color: #E00025;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#Cambodia03{
+  height: 82px;
+  width: 100%;
+  float: left;
+  background-color: #032EA1;
+}
+/* Cambodia */
+/* United Arab Emirates */
+#UAE{
+  height: 300px;
+  width: 30%;
+  background-color: white;
+  margin-top: 05px;
+  margin-left: 05px;
+  float: left;
+}
+#UAE01{
+  height: 300px;
+  width: 22%;
+  float: left;
+  background-color: rgb(255, 0, 0);
+}
+#UAE02{
+  height: 100px;
+  width: 78%;
+  float: left;
+  background-color: rgb(0, 115, 47);
+}
+#UAE03{
+  height: 100px;
+  width: 78%;
+  float: left;
+  background-color: rgb(255, 255, 255);
+}
+#UAE04{
+  height: 100px;
+  width: 78%;
+  float: left;
+  background-color: rgb(0, 0, 0);
+}
+/* United Arab Emirates */
+/* Myanmar flag */
+#Myanmar {
+  height: 300px;
+  width: 30%;
+  background-color: white;
+  margin-top: 05px;
+  float: left;
+}
+#Myanmar01 {
+  height: 100px;
+  width: 100%;
+  background-color: rgb(254, 203, 0);
+}
+#Myanmar02 {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(52, 178, 51);
+}
+#Myanmar03 {
+  height: 100px;
+  width: 100%;
+  background-color: rgb(234, 40, 57);
+}
+/* Myanmar flag */
+/* Laos */
+#Laos{
+  height: 300px;
+  width: 30%;
+  float: left;
+  background-color: white;
+  margin-top: 05px;
+  margin-left: 05px;
+}
+#Laos01{
+  height: 81px;
+  width: 100%;
+  float: left;
+  background-color: #CE1126;
+}
+#Laos02{
+  height: 138px;
+  width: 100%;
+  float: left;
+  background-color: #002868;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#Laos03{
+  height: 81px;
+  width: 100%;
+  float: left;
+  background-color: #CE1126;
+}
+#white{
+  height: 119px;
+  width: 119px;
+  border-radius: 50%;
+  float: left;
+  background-color: #FFFFFF;
+}
+/* Laos */
+/* Nigeria */
+#Nigeria{
+  height: 300px;
+  width: 30%;
+  float: left;
+  background-color: white;
+  margin-top: 05px;
+  margin-left: 05px;
+}
+#Nigeria01{
+  height: 300px;
+  width: 33.3333333%;
+  float: left;
+  background-color: #008751;
+}
+#Nigeria02{
+  height: 300px;
+  width: 33.3333333%;
+  float: right;
+  background-color: #008751;
+}
+/* Nigeria */

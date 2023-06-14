@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SASS</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="#">
+            <h2>Registration Form</h2>
+            <label for="name">Full Name <span>*</span></label> <br/>
+            <input type="text" name="name" id="name" placeholder="Enter your full name" required>
+            <br/>
+            <label for="mail">E-mail <span>*</span></label> <br/>
+            <input type="email" name="email" id="mail" placeholder="Enter your email address" required>
+            <br/>
+            <label for="tel">Phone number <span>*</span></label> <br/>
+            <input type="number" name="tel-number" id="tel" placeholder="Enter your phone number" required>
+            <br/>
+            <label for="gender">Select your gender <span>*</span></label><br/>
+            <div class="gender">
+                <input type="radio" name="gender" value="male" id="male"> <label class="nomargin" for="male">Male</label>
+                <input type="radio" name="gender" value="female" id="female"> <label class="nomargin" for="female">Female</label>
+                <input type="radio" name="gender" value="other" id="other"> <label class="nomargin" for="other">Other</label>
+            </div>
+            <br/>
+            <label for="country">Select your country:</label>
+            <select name="country" id="country">
+                <option hidden value="">--Select--</option>
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="Bhutan">Bhutan</option>
+                <option value="China">China</option>
+                <option value="India">India</option>
+                <option value="Myanmar">Myanmar</option>
+                <option value="Nepal">Nepal</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="Sri Lanka">Sri Lanka</option>
+            </select>
+            <br/>
+            <input type="checkbox" name="agree" required id="agree"> <label for="agree" class="agree">I agree to the terms & policy</label><br/>
+            <button type="submit">Submit</button> <button type="reset">Reset the form</button>
+        </form>
+    </div>
+</body>
+</html>

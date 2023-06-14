@@ -1,0 +1,147 @@
+*{
+    padding: 00px;
+    margin: 00px;
+    outline: 00px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#menu ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+#menu{
+    text-align: center;
+    background-color: #92E8DB;
+}
+#menu ul{
+    display: inline-flex;
+}
+#menu ul li{
+    height: 50px;
+    width: 120px;
+    line-height: 50px;
+    position: relative;
+}
+#menu ul li:hover{
+    background-color: brown;
+}
+#menu ul li a{
+    /* color: crimson; */
+    color: #435059;
+    font-size: 23px;
+    display: block;
+}
+#menu ul li a:focus{
+    color: black;
+}
+#menu ul li a:hover{
+    font-size: 28px;
+    color: #C482EE;
+}
+#active{
+    background-color: rgb(196, 130, 238);
+}
+#color{
+    color: yellow;
+    display: block;
+}
+#color:hover{
+    color: aqua;
+}
+#drop{
+    visibility: hidden;
+    /* display: none; */
+}
+#menu ul li:hover #drop{
+    /* display: block; */
+    visibility: visible;
+    position: absolute;
+    top: 50px;
+    left: 00px;
+}
+#menu ul li:hover #drop ul{
+    display: block;
+    /* background-color: aqua; */
+    background-color: #C482EE;
+}
+#submenu{
+    visibility: hidden;
+    position: absolute;
+    top: 00px;
+    left: 120px;
+}
+#baby{
+    position: relative;
+}
+#baby:hover #submenu{
+    visibility: visible;
+}
+#submenu02{
+    visibility: hidden;
+    background-color: #C482EE;
+}
+#services:hover #submenu02{
+    visibility: visible;
+}
+#services{
+    position: relative;
+}
+#submenu02{
+    position: absolute;
+    top: 50px;
+    left: 00px;
+}
+#submenu02 ul{
+    display: block;
+}
+#app{
+    visibility: hidden;
+    background-color: #C482EE;
+    position: absolute;
+    top: 00px;
+    left: 120px;
+}
+#application:hover #app{
+    visibility: visible;
+}
+#application{
+    position: relative;
+}
+#menu ul li a img{
+    height: 15px;
+}
+#menu ul li a:hover img{
+    visibility: hidden;
+}
+#icon{
+    width: 100%;
+    text-align: center;
+}
+#icon ul li a img{
+    height: 45px;
+}
+#icon ul{
+    display: inline-flex;
+    list-style-type: none;
+}
+#icon ul li{
+    height: 60px;
+    width: 95px;
+    line-height: 60px;
+}
+h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    color: white;
+}
+#footer{
+    height: 190px;
+    width: 100%;
+    background-color: #677983;
+}
+#footer #icon h2{
+    display: inline-flex;
+    display: block;
+}
